@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source /nobackup/eetss/conda/etc/profile.d/conda.sh
+source ${CLUSTER_CONDA_CONFIG}
 conda activate damage_env
 
 ## Arguments:

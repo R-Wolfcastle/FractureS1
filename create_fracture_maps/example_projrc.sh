@@ -10,6 +10,7 @@ export_vars () {
     DEM_PAR_FILEPATH=""
     DEM_FILEPATH=""
     ORBIT_DIR=""
+    CLUSTER_CONDA_CONFIG=""
 }
 
 set -a
