@@ -23,7 +23,6 @@ from scipy.ndimage import binary_dilation as bd
 import sys
 sys.path.insert(1, os.environ['MODULE_HOME'])
 from new_unet import UNet
-from larger_unet import UNet_lg
 from odd_geo_fcts import array_to_geotiff
 
 
