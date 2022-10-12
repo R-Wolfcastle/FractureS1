@@ -46,8 +46,8 @@ kernel = 1
 
 # model = CalveNet(1,2)
 model = UNet(1,2)
-model.load_state_dict(torch.load('{}/unet_26_t2_only_manual_t2_epoch_90_sd'.format(os.environ['MODELB_DICT_DIR']),
-                    										map_location=torch.device(device))['model_state_dict'])
+model.load_state_dict(torch.load('{}/u26_t2_only_mant2_e90_sd'.format(os.environ['MODELB_DICT_DIR']),
+                    						  map_location=torch.device(device))['model_state_dict'])
 model.eval().to(device)
 
 
