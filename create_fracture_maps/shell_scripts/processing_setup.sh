@@ -167,7 +167,6 @@ for ((j=1; j<=$num_images; j++)); do
 		                                                                                ${process_1a} \
 		                                                                                ${process_1b} \
 																						${machine}
-			echo "HAIL SATAN!"
 			qsub qsub_script_${path}_${frame}_${date}.sh
 			cd ${mainPath}
 			let counter++
